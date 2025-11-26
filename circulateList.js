@@ -1,11 +1,7 @@
 const no = require("./node.js");
 
-function defaultEquals(a, b) {
-  return a === b;
-}
-
 class CircularLinkedList {
-  constructor(equalsFn = defaultEquals) {
+  constructor() {
     this.equalsFn = equalsFn;
     this.tail = null;
     this.head = null;
