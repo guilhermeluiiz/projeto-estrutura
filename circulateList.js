@@ -2,7 +2,6 @@ const no = require("./node.js");
 
 class CircularLinkedList {
   constructor() {
-    this.equalsFn = equalsFn;
     this.tail = null;
     this.head = null;
     this.currentNode = null;
@@ -40,6 +39,9 @@ class CircularLinkedList {
   size() {
     return this.count;
   }
+  isEmpty() {
+    return this.size() === 0;
+  }
 }
 
 const linkedList = new CircularLinkedList();
@@ -47,4 +49,4 @@ linkedList.insert(2);
 linkedList.insert(3);
 linkedList.insert(4);
 linkedList.insert(5);
-console.log(JSON.stringify(linkedList));
+console.log(JSON.stringify(linkedList.size));
