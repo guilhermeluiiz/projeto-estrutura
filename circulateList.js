@@ -26,6 +26,17 @@ class CircularLinkedList {
     }
     this.count++;
   }
+
+  remove(task) {
+    if (task == this.head.data) {
+      let current = this.head;
+      this.head = current.next;
+      this.tail.next = this.head.data;
+      current = current.next;
+      this.currentNode = current;
+      this.count--;
+    }
+  }
   size() {
     return this.count;
   }
