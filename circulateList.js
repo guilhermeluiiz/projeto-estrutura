@@ -1,6 +1,6 @@
 const no = require("./node.js");
 
-class CircularLinkedList {
+ class CircularLinkedList {
   constructor() {
     this.tail = null;
     this.head = null;
@@ -88,14 +88,4 @@ class CircularLinkedList {
   }
 }
 
-const linkedList = new CircularLinkedList();
-linkedList.insert(2);
-linkedList.insert(3);
-linkedList.insert(4);
-linkedList.insert(5);
-linkedList.getCurrent();
-linkedList.remove(2);
-linkedList.getCurrent();
-linkedList.remove(5);
-linkedList.remove(4);
-console.log(linkedList);
+module.exports = CircularLinkedList;
