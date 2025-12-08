@@ -4,7 +4,4 @@ linkedList.insert(2);
 linkedList.insert(3);
 linkedList.insert(4);
 linkedList.getCurrent();
-linkedList.remove(3);
-linkedList.remove(2);
-
 console.log(linkedList);
