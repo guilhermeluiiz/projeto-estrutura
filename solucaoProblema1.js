@@ -1,4 +1,4 @@
-const DoublyLinkedList = require("./DoublyLinkedList.js");
+const DoublyLinkedList = require("./listaDuplamenteEncadeada.js");
 const Browser = new DoublyLinkedList();
 Browser.insert(2)
 Browser.insert(3)

@@ -1,4 +1,4 @@
-const CircularLinkedList = require("./circulateList.js");
+const CircularLinkedList = require("./listaCircular.js");
 const ToDoList = new CircularLinkedList();
 class TaskScheduler{
     constructor(){

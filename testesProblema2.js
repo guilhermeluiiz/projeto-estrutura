@@ -1,4 +1,4 @@
-const CircularLinkedList = require("./circulateList.js");
+const CircularLinkedList = require("./listaCircular.js");
 const teste = new CircularLinkedList();
 //método insert uma nova tarefa na lista de forma circular.
 teste.insert(2);

@@ -1,4 +1,4 @@
-const DoublyLinkedList = require("./DoublyLinkedList.js")
+const DoublyLinkedList = require("./listaDuplamenteEncadeada.js")
 const teste = new DoublyLinkedList()
 //método insert adiciona NÓ dentro da lista.
 teste.insert(2);
