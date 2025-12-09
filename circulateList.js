@@ -1,4 +1,9 @@
-const no = require("./node.js");
+class nodeList {
+  constructor(data) {
+    this.data = data;
+    this.next = undefined;
+  }
+};
 
  class CircularLinkedList {
   constructor() {
@@ -8,7 +13,7 @@ const no = require("./node.js");
     this.count = 0;
   }
   insert(task) {
-    const newNo = new no(task);
+    const newNo = new nodeList(task);
     if (this.head === null) {
       this.head = newNo;
       this.currentNode = newNo;
