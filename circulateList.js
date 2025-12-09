@@ -39,7 +39,8 @@ class nodeList {
     this.tail = null;
     this.count = 0;
    }
-   if(task == this.head.data){
+   else{
+    if(task == this.head.data){
      if(this.head == this.currentNode){
       this.getCurrent();
     } 
@@ -73,6 +74,7 @@ class nodeList {
     this.tail  = current;
     current.next = this.head;
     return true;
+   }
    }
 
   }
