@@ -5,7 +5,7 @@ teste.insert(2);
 teste.insert(3);
 teste.insert(4);
 //teste.remove(2); //método "remove" remove a tarefa especificada da lista.
-teste.remove(3);
+//teste.remove(3);
 //teste.remove(4);
 //console.log(teste.getCurrent()); //Retorna a tarefa atualmente apontada por currentNode.
 //console.log(teste.isEmpty()); //Retorna se a lista for vazia.
