@@ -24,3 +24,5 @@ nextTask: utiliza o método getCurrent para avançar uma tarefa na lista.
 currentTask: este método retorna a tarefa atual da lista.
 
 solução problema(Lista Duplamente Encadeada):
+Método visit:Insere uma nova URL no histórico. Se o usuário estiver no meio do histórico, todas as páginas futuras devem ser 
+removidas. Atualiza o ponteiro atual para a nova página.
