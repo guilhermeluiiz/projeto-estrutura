@@ -18,4 +18,5 @@ O metodo clear :Remove todos os elementos da lista.
 O metodo size :Retorna a quantidade de elementos.
 
 Testes Lista Circular:
-addTask: Utiliza o método insert para adicionar uma nova task a lista 
+addTask: Utiliza o método insert para adicionar uma nova task a lista.
+removeTask: utiliza o método remove para remover uma task da lista.
