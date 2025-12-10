@@ -20,3 +20,4 @@ O metodo size :Retorna a quantidade de elementos.
 Testes Lista Circular:
 addTask: Utiliza o método insert para adicionar uma nova task a lista.
 removeTask: utiliza o método remove para remover uma task da lista.
+nextTask: utiliza o método getCurrent para avançar uma tarefa na lista 
