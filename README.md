@@ -30,3 +30,4 @@ Método back: Move o ponteiro atual para a página anterior, se existir.
 Se já estiver na primeira página, permanece no mesmo lugar.
 Método forward:Move o ponteiro atual para a próxima página, se existir.
 Se estiver na última página, permanece no mesmo lugar.
+Método current:Retorna a URL do nó onde o ponteiro atual está localizado.
