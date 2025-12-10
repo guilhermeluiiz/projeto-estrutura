@@ -16,3 +16,5 @@ O metodo getCurrent :Retorna a tarefa atualmente apontada por currentNode.
 O metodo isEmpty :Retorna se a lista for vazia.
 O metodo clear :Remove todos os elementos da lista.
 O metodo size :Retorna a quantidade de elementos.
+
+Testes Lista Circular:
