@@ -17,8 +17,10 @@ O metodo isEmpty :Retorna se a lista for vazia.
 O metodo clear :Remove todos os elementos da lista.
 O metodo size :Retorna a quantidade de elementos.
 
-Testes Lista Circular:
+solução problema(Lista Circular):
 addTask: Utiliza o método insert para adicionar uma nova task a lista.
 removeTask: utiliza o método remove para remover uma task da lista.
 nextTask: utiliza o método getCurrent para avançar uma tarefa na lista.  
 currentTask: este método retorna a tarefa atual da lista.
+
+solução problema(Lista Duplamente Encadeada):
