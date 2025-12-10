@@ -34,11 +34,11 @@ class BrowserHistory {
   }
 }
 const history = new BrowserHistory();
-history.visit(2);
-history.visit(3);
-history.visit(4);
-history.visit(5);
+history.visit("www.YouTube.com");
+history.visit("www.GitHub.com");
+history.visit("www.Google.com");
+history.visit("www.ClassRoom.com");
 history.back();
 history.back();
-history.forward();
-console.log();
+history.visit("www.teste.com")
+console.log(history);
