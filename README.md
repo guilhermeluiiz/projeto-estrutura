@@ -26,3 +26,7 @@ currentTask: este método retorna a tarefa atual da lista.
 solução problema(Lista Duplamente Encadeada):
 Método visit:Insere uma nova URL no histórico. Se o usuário estiver no meio do histórico, todas as páginas futuras devem ser 
 removidas. Atualiza o ponteiro atual para a nova página.
+Método back: Move o ponteiro atual para a página anterior, se existir.
+Se já estiver na primeira página, permanece no mesmo lugar.
+Método forward:Move o ponteiro atual para a próxima página, se existir.
+Se estiver na última página, permanece no mesmo lugar.
