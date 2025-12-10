@@ -21,12 +21,12 @@ class TaskScheduler {
   }
 }
 const task = new TaskScheduler();
-task.addTask("correr");
-task.addTask("estudar");
-task.addTask("assistir tv");
-task.nextTask();
-task.removeTask("estudar");
-task.removeTask("correr");
-task.removeTask("assistir tv");
+//task.addTask("correr");
+//task.addTask("estudar");
+//task.addTask("assistir tv");
+//task.nextTask();
+//task.removeTask("estudar");
+//task.removeTask("correr");
+//task.removeTask("assistir tv");
 //task.nextTask();
 console.log(task);
